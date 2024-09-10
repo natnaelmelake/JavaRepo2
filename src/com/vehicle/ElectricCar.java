@@ -1,9 +1,6 @@
+package com.vehicle;
 public class ElectricCar extends Car {
     private double batteryLevel;
-
-    public ElectricCar(){
-        super();
-    }
 
     public void setBatteryLevel(double battery){
         this.batteryLevel=battery;

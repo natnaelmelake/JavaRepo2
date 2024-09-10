@@ -1,12 +1,8 @@
+package com.vehicle;
 public class Car {
     private double speedKph;
     private float fuelLevel;
     private int distanceTraveled;
-
-    public Car(){
-        
-    }
-
 
 
     public void setSpeed(double speed){
