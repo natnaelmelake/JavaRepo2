@@ -10,6 +10,7 @@ public class Main {
         System.out.println("------------------TESTING CAR----------------------------------------");
         System.out.println(c1.getSpeedMph());
         System.out.println(c1.getDistancekm());
+    
 
         System.out.println("---------------------TESTING ELECTRIC CAR-----------------------------");
         ElectricCar Ec1=new ElectricCar();
@@ -17,5 +18,9 @@ public class Main {
         Ec1.drive(50);
 
         System.out.println(Ec1.getBatteryLevel());
+
+    
+
+        
     }
 }

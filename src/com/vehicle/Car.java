@@ -27,7 +27,7 @@ public class Car {
     }
 
     public int calculateRemainingFuel(double distance){
-        double remainingFuel=distance*(0.005*fuelLevel);
+        double remainingFuel=fuelLevel-(distance*(0.005*fuelLevel));
         int remainingFuelInteger=(int)remainingFuel;
         return remainingFuelInteger;
     }
